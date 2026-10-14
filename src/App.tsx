@@ -82,15 +82,15 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen bg-pink-50 text-pink-900 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans">
       {/* Top Banner / Info Bar */}
-      <div className="bg-pink-950 text-pink-200 text-xs py-2 px-4 border-b border-pink-900">
+      <div className="bg-slate-900 text-slate-200 text-xs py-2 px-4 border-b border-slate-800">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-          <span className="flex items-center gap-2 text-pink-200">
-            <Shield className="w-3.5 h-3.5 text-pink-400" /> AT Consultoria, Representações e Serviços — Excelência B2B e Soluções Integradas
+          <span className="flex items-center gap-2 text-slate-200">
+            <Shield className="w-3.5 h-3.5 text-blue-400" /> AT Consultoria, Representações e Serviços — Excelência B2B e Soluções Integradas
           </span>
           <div className="flex items-center gap-4">
-            <button onClick={() => handleNavigate('contato')} className="text-pink-200 hover:text-pink-100 transition">
+            <button onClick={() => handleNavigate('contato')} className="text-slate-200 hover:text-white transition">
               Fale com o Comercial
             </button>
           </div>
@@ -1508,15 +1508,15 @@ export function App() {
                 <li><button onClick={() => handleNavigate('servicos-industriais')} className="hover:text-white transition">AT Serviços</button></li>
                 <li><button onClick={() => handleNavigate('equipamentos')} className="hover:text-white transition">AT Equipamentos</button></li>
                 <li><button onClick={() => handleNavigate('produtos-quimicos')} className="hover:text-white transition">AT Química</button></li>
-                <li><button onClick={() => handleNavigate('mentoria')} className="text-pink-300 hover:text-white transition">AT Mentoria</button></li>
-                <li><button onClick={() => handleNavigate('representacoes')} className="text-pink-300 hover:text-white transition">AT Representações</button></li>
+                <li><button onClick={() => handleNavigate('mentoria')} className="hover:text-white transition">AT Mentoria</button></li>
+                <li><button onClick={() => handleNavigate('representacoes')} className="hover:text-white transition">AT Representações</button></li>
               </ul>
             </div>
 
             {/* Col 3 */}
             <div>
               <h4 className="font-bold text-white text-sm uppercase tracking-wider mb-4">Navegação</h4>
-              <ul className="space-y-2.5 text-xs text-pink-300">
+              <ul className="space-y-2.5 text-xs">
                 <li><button onClick={() => handleNavigate('inicio')} className="hover:text-white transition">Início</button></li>
                 <li><button onClick={() => handleNavigate('quem-somos')} className="hover:text-white transition">Quem Somos</button></li>
                 <li><button onClick={() => handleNavigate('solucoes-integradas')} className="hover:text-white transition">Portfólio de Soluções Integradas</button></li>
@@ -1528,18 +1528,18 @@ export function App() {
             {/* Col 4 */}
             <div>
               <h4 className="font-bold text-white text-sm uppercase tracking-wider mb-4">Legal & Privacidade</h4>
-              <ul className="space-y-2.5 text-xs text-pink-300">
+              <ul className="space-y-2.5 text-xs">
                 <li><button onClick={() => handleNavigate('privacidade')} className="hover:text-white transition">Política de Privacidade</button></li>
-                <li className="pt-2 text-pink-400 text-[11px]">
+                <li className="pt-2 text-slate-500 text-[11px]">
                   CNPJ e dados oficiais em fase de confirmação para divulgação.
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="border-t border-pink-900 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-pink-300 gap-4">
+          <div className="border-t border-slate-900 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
             <p>© {new Date().getFullYear()} AT Consultoria, Representações e Serviços. Todos os direitos reservados.</p>
-            <p className="text-pink-400">Plataforma institucional corporativa B2B</p>
+            <p>Plataforma institucional corporativa B2B</p>
           </div>
         </div>
       </footer>
