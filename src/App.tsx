@@ -82,15 +82,15 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col font-sans">
+    <div className="min-h-screen bg-pink-50 text-pink-900 flex flex-col font-sans">
       {/* Top Banner / Info Bar */}
-      <div className="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+      <div className="bg-pink-950 text-pink-200 text-xs py-2 px-4 border-b border-pink-900">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-          <span className="flex items-center gap-2">
-            <Shield className="w-3.5 h-3.5 text-amber-500" /> AT Consultoria, Representações e Serviços — Excelência B2B e Soluções Integradas
+          <span className="flex items-center gap-2 text-pink-200">
+            <Shield className="w-3.5 h-3.5 text-pink-400" /> AT Consultoria, Representações e Serviços — Excelência B2B e Soluções Integradas
           </span>
           <div className="flex items-center gap-4">
-            <button onClick={() => handleNavigate('contato')} className="hover:text-white transition">
+            <button onClick={() => handleNavigate('contato')} className="text-pink-200 hover:text-pink-100 transition">
               Fale com o Comercial
             </button>
           </div>
@@ -827,20 +827,20 @@ export function App() {
           <div className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="max-w-3xl mx-auto text-center mb-16">
-                <span className="text-amber-600 font-bold uppercase tracking-wider text-sm">Área de Negócio</span>
-                <h1 className="text-4xl font-extrabold text-slate-900 mt-2 mb-4">AT Consultoria</h1>
-                <p className="text-lg text-slate-600">
+                <span className="text-pink-600 font-bold uppercase tracking-wider text-sm">Área de Negócio</span>
+                <h1 className="text-4xl font-extrabold text-pink-950 mt-2 mb-4">AT Consultoria</h1>
+                <p className="text-lg text-pink-700">
                   Gestão, Estratégia e Viabilidade de Negócios para Empresas de Alto Desempenho.
                 </p>
               </div>
 
               <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
                 <div>
-                  <h2 className="text-2xl font-bold text-slate-900 mb-4">Consultoria Especializada</h2>
-                  <p className="text-slate-600 mb-4 leading-relaxed">
-                    A frente de <strong>Consultoria da AT</strong> apoia empresários, diretores e gestores na estruturação de novos projetos, análise de viabilidade técnica e financeira, além de suporte regulatório e documentações essenciais.
+                  <h2 className="text-2xl font-bold text-pink-950 mb-4">Consultoria Especializada</h2>
+                  <p className="text-pink-800 mb-4 leading-relaxed">
+                    A frente de <strong className="text-pink-950">Consultoria da AT</strong> apoia empresários, diretores e gestores na estruturação de novos projetos, análise de viabilidade técnica e financeira, além de suporte regulatório e documentações essenciais.
                   </p>
-                  <p className="text-slate-600 mb-6 leading-relaxed">
+                  <p className="text-pink-800 mb-6 leading-relaxed">
                     Capacitamos equipes através de treinamentos especializados focados em aprimorar processos internos e tomada de decisão estratégica.
                   </p>
                   <button
@@ -850,8 +850,8 @@ export function App() {
                     Solicitar Proposta de Consultoria
                   </button>
                 </div>
-                <div className="bg-slate-900 text-white p-8 rounded-2xl shadow-xl">
-                  <h3 className="text-xl font-bold text-amber-400 mb-6">Serviços Confirmados:</h3>
+                <div className="bg-pink-950 text-pink-100 p-8 rounded-2xl shadow-xl">
+                  <h3 className="text-xl font-bold text-pink-300 mb-6">Serviços Confirmados:</h3>
                   <ul className="space-y-4">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" />
@@ -881,20 +881,20 @@ export function App() {
           <div className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="max-w-3xl mx-auto text-center mb-16">
-                <span className="text-amber-600 font-bold uppercase tracking-wider text-sm">Área de Negócio</span>
-                <h1 className="text-4xl font-extrabold text-slate-900 mt-2 mb-4">AT Serviços</h1>
-                <p className="text-lg text-slate-600">
+                <span className="text-pink-600 font-bold uppercase tracking-wider text-sm">Área de Negócio</span>
+                <h1 className="text-4xl font-extrabold text-pink-950 mt-2 mb-4">AT Serviços</h1>
+                <p className="text-lg text-pink-700">
                   Operação, Manutenção Preventiva/Corretiva e Limpeza de Tanques Industriais.
                 </p>
               </div>
 
               <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
                 <div>
-                  <h2 className="text-2xl font-bold text-slate-900 mb-4">Serviços Técnicos Industriais</h2>
-                  <p className="text-slate-600 mb-4 leading-relaxed">
-                    A <strong>AT Serviços</strong> oferece suporte operacional completo para indústrias, transportadoras e frotas, garantindo alta disponibilidade de equipamentos e tanques com segurança rigorosa.
+                  <h2 className="text-2xl font-bold text-pink-950 mb-4">Serviços Técnicos Industriais</h2>
+                  <p className="text-pink-800 mb-4 leading-relaxed">
+                    A <strong className="text-pink-950">AT Serviços</strong> oferece suporte operacional completo para indústrias, transportadoras e frotas, garantindo alta disponibilidade de equipamentos e tanques com segurança rigorosa.
                   </p>
-                  <p className="text-slate-600 mb-6 leading-relaxed">
+                  <p className="text-pink-800 mb-6 leading-relaxed">
                     Destacamo-nos pela excelência na limpeza de tanques e na recuperação de diesel contaminado, evitando perdas financeiras e assegurando a qualidade dos combustíveis.
                   </p>
                   <button
@@ -935,20 +935,20 @@ export function App() {
           <div className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="max-w-3xl mx-auto text-center mb-16">
-                <span className="text-amber-600 font-bold uppercase tracking-wider text-sm">Área de Negócio</span>
-                <h1 className="text-4xl font-extrabold text-slate-900 mt-2 mb-4">AT Equipamentos</h1>
-                <p className="text-lg text-slate-600">
+                <span className="text-pink-600 font-bold uppercase tracking-wider text-sm">Área de Negócio</span>
+                <h1 className="text-4xl font-extrabold text-pink-950 mt-2 mb-4">AT Equipamentos</h1>
+                <p className="text-lg text-pink-700">
                   Tecnologia, Maquinário, Bombas Industriais e Sistemas de Alta Eficiência.
                 </p>
               </div>
 
               <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
                 <div>
-                  <h2 className="text-2xl font-bold text-slate-900 mb-4">Equipamentos e Máquinas de Alto Padrão</h2>
-                  <p className="text-slate-600 mb-4 leading-relaxed">
-                    A <strong>AT Equipamentos</strong> fornece maquinário robusto, bombas industriais e filtros de alta eficiência projetados para suportar as condições mais exigentes do mercado industrial e de transportes.
+                  <h2 className="text-2xl font-bold text-pink-950 mb-4">Equipamentos e Máquinas de Alto Padrão</h2>
+                  <p className="text-pink-800 mb-4 leading-relaxed">
+                    A <strong className="text-pink-950">AT Equipamentos</strong> fornece maquinário robusto, bombas industriais e filtros de alta eficiência projetados para suportar as condições mais exigentes do mercado industrial e de transportes.
                   </p>
-                  <p className="text-slate-600 mb-6 leading-relaxed">
+                  <p className="text-pink-800 mb-6 leading-relaxed">
                     Oferecemos orientação técnica para que sua empresa selecione exatamente o periférico ou acessório ideal para a sua linha de produção ou frota.
                   </p>
                   <button
@@ -1508,15 +1508,15 @@ export function App() {
                 <li><button onClick={() => handleNavigate('servicos-industriais')} className="hover:text-white transition">AT Serviços</button></li>
                 <li><button onClick={() => handleNavigate('equipamentos')} className="hover:text-white transition">AT Equipamentos</button></li>
                 <li><button onClick={() => handleNavigate('produtos-quimicos')} className="hover:text-white transition">AT Química</button></li>
-                <li><button onClick={() => handleNavigate('mentoria')} className="hover:text-white transition">AT Mentoria</button></li>
-                <li><button onClick={() => handleNavigate('representacoes')} className="hover:text-white transition">AT Representações</button></li>
+                <li><button onClick={() => handleNavigate('mentoria')} className="text-pink-300 hover:text-white transition">AT Mentoria</button></li>
+                <li><button onClick={() => handleNavigate('representacoes')} className="text-pink-300 hover:text-white transition">AT Representações</button></li>
               </ul>
             </div>
 
             {/* Col 3 */}
             <div>
               <h4 className="font-bold text-white text-sm uppercase tracking-wider mb-4">Navegação</h4>
-              <ul className="space-y-2.5 text-xs">
+              <ul className="space-y-2.5 text-xs text-pink-300">
                 <li><button onClick={() => handleNavigate('inicio')} className="hover:text-white transition">Início</button></li>
                 <li><button onClick={() => handleNavigate('quem-somos')} className="hover:text-white transition">Quem Somos</button></li>
                 <li><button onClick={() => handleNavigate('solucoes-integradas')} className="hover:text-white transition">Portfólio de Soluções Integradas</button></li>
@@ -1528,18 +1528,18 @@ export function App() {
             {/* Col 4 */}
             <div>
               <h4 className="font-bold text-white text-sm uppercase tracking-wider mb-4">Legal & Privacidade</h4>
-              <ul className="space-y-2.5 text-xs">
+              <ul className="space-y-2.5 text-xs text-pink-300">
                 <li><button onClick={() => handleNavigate('privacidade')} className="hover:text-white transition">Política de Privacidade</button></li>
-                <li className="pt-2 text-slate-500 text-[11px]">
+                <li className="pt-2 text-pink-400 text-[11px]">
                   CNPJ e dados oficiais em fase de confirmação para divulgação.
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="border-t border-slate-900 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs gap-4">
+          <div className="border-t border-pink-900 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-pink-300 gap-4">
             <p>© {new Date().getFullYear()} AT Consultoria, Representações e Serviços. Todos os direitos reservados.</p>
-            <p className="text-slate-500">Plataforma institucional corporativa B2B</p>
+            <p className="text-pink-400">Plataforma institucional corporativa B2B</p>
           </div>
         </div>
       </footer>
