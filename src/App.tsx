@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import logo from './assets/uploads/1791587594161-0-logo.jpg';
+import maleModel1 from './assets/uploads/1792001183245-0-images-1-.jpg';
+import maleModel2 from './assets/uploads/1792001183245-1-images-2-.jpg';
+import maleModel3 from './assets/uploads/1792001183245-2-images.jpg';
 import {
   Menu,
   X,
@@ -389,24 +392,18 @@ export function App() {
                       </div>
                     </div>
                   </div>
-                  <div className="bg-slate-900 rounded-2xl p-8 lg:p-12 text-white shadow-2xl relative overflow-hidden">
-                    <div className="absolute -right-10 -bottom-10 w-60 h-60 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
-                    <h3 className="text-2xl font-bold mb-4 text-amber-400">Nossos Pilares de Atuação</h3>
-                    <p className="text-slate-300 mb-8 text-sm leading-relaxed">
-                      Compreendemos as necessidades específicas de cada cliente para identificar oportunidades, apresentar soluções adequadas e construir relacionamentos duradouros.
-                    </p>
-                    <div className="space-y-4">
-                      <div className="bg-white/5 border border-white/10 p-4 rounded-xl">
-                        <h4 className="font-bold text-white text-base mb-1">1. Consultoria e Desenvolvimento de Negócios</h4>
-                        <p className="text-xs text-slate-400">Direcionamento estratégico, viabilidade de empreendimentos e suporte regulatório.</p>
-                      </div>
-                      <div className="bg-white/5 border border-white/10 p-4 rounded-xl">
-                        <h4 className="font-bold text-white text-base mb-1">2. Soluções Técnicas, Equipamentos e Serviços</h4>
-                        <p className="text-xs text-slate-400">Bombas, filtragem de alta eficiência, manutenções e apoio operacional especializado.</p>
-                      </div>
-                      <div className="bg-white/5 border border-white/10 p-4 rounded-xl">
-                        <h4 className="font-bold text-white text-base mb-1">3. Representação Comercial e Fornecimento</h4>
-                        <p className="text-xs text-slate-400">Comercialização de peças, produtos químicos industriais e fomento a parcerias B2B.</p>
+                  <div className="relative">
+                    <div className="absolute -inset-2 bg-gradient-to-r from-amber-500 to-blue-600 rounded-2xl blur opacity-30"></div>
+                    <div className="relative rounded-2xl overflow-hidden h-[480px] shadow-2xl border border-slate-800 group">
+                      <img src={maleModel1} alt="Consultor e Especialista B2B" className="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent flex flex-col justify-end p-8">
+                        <h3 className="text-2xl font-bold mb-2 text-amber-400">Nossos Pilares de Atuação</h3>
+                        <p className="text-slate-200 text-sm mb-4">
+                          Compreendemos as necessidades específicas de cada cliente para identificar oportunidades e apresentar soluções.
+                        </p>
+                        <span className="bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full w-max">
+                          Parceiro AT Consultoria
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -763,6 +760,12 @@ export function App() {
               </div>
 
               <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+                <div className="relative rounded-2xl overflow-hidden h-[400px] shadow-xl">
+                  <img src={maleModel2} alt="Diretor Executivo" className="w-full h-full object-cover" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent flex items-end p-6">
+                    <p className="text-white font-medium text-sm">Liderança experiente com foco em resultados industriais</p>
+                  </div>
+                </div>
                 <div>
                   <h2 className="text-2xl font-bold text-slate-900 mb-4">Nossa Essência e Atuação</h2>
                   <p className="text-slate-600 mb-4 leading-relaxed">
@@ -827,9 +830,9 @@ export function App() {
           <div className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="max-w-3xl mx-auto text-center mb-16">
-                <span className="text-pink-600 font-bold uppercase tracking-wider text-sm">Área de Negócio</span>
-                <h1 className="text-4xl font-extrabold text-pink-950 mt-2 mb-4">AT Consultoria</h1>
-                <p className="text-lg text-pink-700">
+                <span className="text-amber-600 font-bold uppercase tracking-wider text-sm">Área de Negócio</span>
+                <h1 className="text-4xl font-extrabold text-slate-900 mt-2 mb-4">AT Consultoria</h1>
+                <p className="text-lg text-slate-600">
                   Gestão, Estratégia e Viabilidade de Negócios para Empresas de Alto Desempenho.
                 </p>
               </div>
