@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import logo from './assets/uploads/1791587594161-0-logo.jpg';
-import maleModel1 from './assets/uploads/1792001183245-0-images-1-.jpg';
-import maleModel2 from './assets/uploads/1792001183245-1-images-2-.jpg';
-import maleModel3 from './assets/uploads/1792001183245-2-images.jpg';
 import {
   Menu,
   X,
@@ -392,20 +389,14 @@ export function App() {
                       </div>
                     </div>
                   </div>
-                  <div className="relative">
-                    <div className="absolute -inset-2 bg-gradient-to-r from-amber-500 to-blue-600 rounded-2xl blur opacity-30"></div>
-                    <div className="relative rounded-2xl overflow-hidden h-[480px] shadow-2xl border border-slate-800 group">
-                      <img src={maleModel1} alt="Consultor e Especialista B2B" className="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
-                      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent flex flex-col justify-end p-8">
-                        <h3 className="text-2xl font-bold mb-2 text-amber-400">Nossos Pilares de Atuação</h3>
-                        <p className="text-slate-200 text-sm mb-4">
-                          Compreendemos as necessidades específicas de cada cliente para identificar oportunidades e apresentar soluções.
-                        </p>
-                        <span className="bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full w-max">
-                          Parceiro AT Consultoria
-                        </span>
-                      </div>
-                    </div>
+                  <div className="bg-slate-900 rounded-2xl p-8 border border-slate-800 text-white flex flex-col justify-center">
+                    <h3 className="text-2xl font-bold mb-2 text-amber-400">Nossos Pilares de Atuação</h3>
+                    <p className="text-slate-300 text-sm mb-4">
+                      Compreendemos as necessidades específicas de cada cliente para identificar oportunidades e apresentar soluções.
+                    </p>
+                    <span className="bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full w-max">
+                      Parceiro AT Consultoria
+                    </span>
                   </div>
                 </div>
               </div>
@@ -760,8 +751,14 @@ export function App() {
               </div>
 
               <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-                <div className="relative rounded-2xl overflow-hidden h-[400px] shadow-xl">
-                  <img src={maleModel2} alt="Diretor Executivo" className="w-full h-full object-cover" />
+                <div className="bg-gradient-to-br from-slate-900 to-blue-950 p-10 rounded-2xl text-white shadow-xl flex flex-col justify-center h-[400px]">
+                  <div className="w-16 h-16 bg-amber-500/20 rounded-2xl flex items-center justify-center mb-6">
+                    <Briefcase className="w-8 h-8 text-amber-400" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-3">Liderança e Experiência em Negócios</h3>
+                  <p className="text-slate-300 text-sm leading-relaxed">
+                    Atuação focada em governança, eficiência operacional e parcerias estratégicas de longo prazo.
+                  </p>
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent flex items-end p-6">
                     <p className="text-white font-medium text-sm">Liderança experiente com foco em resultados industriais</p>
                   </div>
